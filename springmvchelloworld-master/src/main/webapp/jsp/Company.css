@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+.button {
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-right: 15px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.logout {
+	background-color: #71789a;
+	color: white;
+	font-weight: bold;
+	border: 2px solid #71789a;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+
+.logout:hover {
+	background-color: #ECF6FC;
+	color: black;
+}
+
+.tabs {
+	display: inline-block;
+	border-radius: 25px;
+	background-color: #121d54;
+	width: 300px;
+	border: #efe8e8 solid 1px;
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	padding: 10px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin-right: 70px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
+.tabs span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.tabs span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.tabs:hover span {
+	padding-right: 25px;
+}
+
+.tabs:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.head {
+	height: auto; //300
+	px width: inherit;
+	background-color: #121d54;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 30px;
+}
+
+.body {
+	background: #71789a;
+	font-family: 'Open Sans', sans-serif;
+	height: 1000px;
+}
